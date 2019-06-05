@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
@@ -79,12 +80,32 @@
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
 
           <a class="adress-map" href="http://yandex.ru/maps">
-              <img src="img/map-mini.jpeg" width="300" height="158" alt="Адрес на карте">
+              <img src="img/map-mini.jpg" width="300" height="158" alt="Адрес на карте">
           </a>
           
           <a class="button" href="#">Заблудились? Напишите нам!</a>
-            <!-- Здесь будет форма-->
-          <span class="modal-close">x</span>
+            <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+          
+               <p class="feedback-item">
+                  <label for="feedback-name">Ваше имя:</label>
+                  <input id="feedback-name" type="text" name="name" value=" " placeholder="Имя Фамилия">
+               </p>
+            
+               <p class="afeedback-item">
+                 <label for="feedback-message">Текст письма:</label>
+                  <input id="feedback-message" type="text" name="message" value=" " placeholder="В свободной форме">
+               </p>
+  
+                <p class="feedback-item">
+                 <label for="feedback-email">Ваш e-mail:</label>
+                 <input id="feedback-email" type="text" name="email" value=" " placeholder="email@example.com">
+                </p>
+          
+              <button class="button" type="submit">Отправить</button>
+              <button class="modal-close" type="button">x</button>
+
+            </form>
+    
         </section>
 
     </main>
@@ -139,12 +160,14 @@
 
 
 
+
+
       <section class="modal modal-login">
-        <h2 class="main-entry">Войти</h2>
-        <p>Введите свой логин и пароль</p>
-        <!-- Здесь будет форма-->
-        <span class="modal-close">x</span>
-      </section>
+          <h2 class="main-entry">Войти</h2>
+          <p>Введите свой логин и пароль</p>
+          <!-- Здесь будет форма-->
+          <span class="modal-close">x</span>
+        </section>
 
 
       <section class="modal modal-registration">

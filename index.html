@@ -78,7 +78,7 @@
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
 
           <a class="adress-map" href="http://yandex.ru/maps">
-              <img src="img/map-mini.jpg" width="300" height="158" alt="Адрес на карте">
+              <img src="img/map-mini.png" width="300" height="158" alt="Адрес на карте">
           </a>
           
           <a class="button" href="#">Заблудились? Напишите нам!</a>
@@ -89,7 +89,7 @@
                   <input id="feedback-name" type="text" name="name" value=" " placeholder="Имя Фамилия">
                </p>
             
-               <p class="afeedback-item">
+               <p class="feedback-item">
                  <label for="feedback-message">Текст письма:</label>
                   <input id="feedback-message" type="text" name="message" value=" " placeholder="В свободной форме">
                </p>
@@ -159,19 +159,30 @@
 
 
       <section class="modal modal-login">
-          <h2 class="main-entry">Войти</h2>
-          <p>Введите свой логин и пароль</p>
-          <!-- Здесь будет форма-->
-          <span class="modal-close">x</span>
-        </section>
+        <h2 class="main-entry">Войти</h2>
+        <p>Введите свой логин и пароль</p>
+        <!-- Здесь будет форма-->
+        <button class="modal-close" type="button"> x </button>
+      </section>
 
 
       <section class="modal modal-registration">
         <h2 class="main-registration">Регистрация</h2>
         <p>Введите свою почту, пароль</p>
         <!-- Здесь будет форма-->
-        <span class="modal-close">x</span>
+        <button class="modal-close" type="button"> x </button>
       </section>
+
+      
+      <section class="modal modal-map">
+        <h2 class="main-map visually-hidden">Адрес на карте</h2>
+        <img src="img/map-big.png" width="940" alt="Адрес на карте">
+        <button class="modal-close" type="button">x</button>
+      </section>
+
+
+
+
 
     </footer>
 

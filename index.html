@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -13,7 +14,12 @@
           <a class="main-header-logo">Техномарт</a>
 
           <ul class="user-navigation">
-            <li class="found-link">Поиск:</li>
+            <li class="found-link">
+              <form>
+                <label class="visually-hidden" for="found-name">Поиск:</label>
+                <input class="found" id="found-name" type="search" name="name" value=" " placeholder="Поиск:">
+              </form>
+            </li>
             <li class="bookmark-link">
               <a href="#" class="bookmark">Закладки: 0</a>
             </li>
@@ -24,7 +30,7 @@
               <a href="#" class="order">Оформить заказ</a>
             </li>
           </ul>
-        </div>
+      </div>
 
       <section class="main-contacts">
         <h1>Интернет-магазин строительных матеиралов и инструменетов для ремонта</h1>
@@ -39,7 +45,7 @@
           <a href="#" class="registration">Регистрация</a>
         </div>
 
-      </section>     
+      </section>
 
       <div>
         <nav class="main-navigation">
@@ -57,9 +63,9 @@
 
     </header>
 
-    
+
     <main class="container">
-      
+
       <section class="main-offers">
 
         <h2 class="visuall-hidden">Горячие предложения</h2>
@@ -90,7 +96,7 @@
             <a class="btn-offers" href="#">Бесплатно</a>
           </div>
           </div>
-            
+
       </section>
 
       <section class="slider">
@@ -108,7 +114,7 @@
           <a class="button" href="#">Открыть каталог</a>
         </div>
       </section>
-      
+
 
 
       <section class="main-items">
@@ -171,11 +177,10 @@
 
       </section>
 
-      
+
       <section class="brands">
         <h2 class="popular-brands">Популярные производители:</h2>
         <ul>
-          <li>TEST</li>
           <li><img src="img/brands/bosch.jpg" alt="BOSCH"></li>
           <li><img src="img/brands/makita.jpg" alt="Makita"></li>
           <li><img src="img/brands/dewalt.jpg" alt="DeWALT"></li>
@@ -195,7 +200,7 @@
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
 
-        
+
       <div class="services-delivery">
         <h3>Доставка</h3>
           <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
@@ -206,7 +211,7 @@
       <div class="services-warranty">
         <h3>Гарантия</h3>
           <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием,
-          вы всегда можете быть уверены в нашей гарантии. 
+          вы всегда можете быть уверены в нашей гарантии.
           Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
           </p>
       </div>
@@ -214,7 +219,7 @@
 
       <div class="services-credit">
         <h3>Кредит</h3>
-          <p>Залезть в долговую яму стало проще! 
+          <p>Залезть в долговую яму стало проще!
           Кредитные консультанты придут вам на помощь.</p>
 
         <a class="button" href="#">Отправить заявку</a>
@@ -245,19 +250,19 @@
           <a class="adress-map" href="http://yandex.ru/maps">
               <img src="img/map-mini.png" width="300" height="158" alt="Адрес на карте">
           </a>
-          
+
           <a class="button" href="#">Заблудились? Напишите нам!</a>
-   
+
         </section>
 
     </main>
 
-  
+
 
     <footer class="main-footer">
         <div>
             <a class="main-footer-logo" >Техномарт</a>
-            
+
         <nav class="footer-navigation-one">
             <ul class="footer-site-navigation">
               <li><a href="#">Компания</a>
@@ -268,7 +273,7 @@
             </ul>
         </nav>
         </div>
-  
+
         <div class="footer-navigation-two">
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7(812)555-05-55</p>
             <ul class="footer-additionally-navigation">
@@ -278,7 +283,7 @@
               <li><a href="#">Спецпредложения</a>
             </ul>
         </div>
-    
+
       <div class="footer-social-navigation">
         <p>2010-2017 Компания Техномарт Все права защищены</p>
 
@@ -313,7 +318,7 @@
 
     <section class="modal modal-feedback">
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-          
+
         <div class="feedback">
         <p class="feedback-item">
           <label for="feedback-name">Ваше имя:</label>
@@ -334,15 +339,13 @@
        </p>
 
 
- 
+
        <button class="button" type="submit">Отправить</button>
        <button class="modal-close" type="button">  </button>
 
       </form>
     </section>
 
-    
+
   </body>
 </html>
-
-

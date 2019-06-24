@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background: #f2f6f8;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.user-navigation {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.order {
+  background-color: #63a63e;
+}
+
+
+<!-- не отображается свойство при наведении.. -->
+.order:hover {
+  background-color: #5fbb2d;
+}
+
+.bookmark:hover,
+.bookmark:focus,
+.basket:hover,
+.basket:focus,
+.found:hover, {
+  background-color: #212a3a;
+}
+
+.found:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.bookmark:active,
+.basket:active, {
+  background-color: #161d29;
+}
+
+<!-- Сделать белый фон при Курсоре в поле поиска (создать поле ввода?) -->
+.found:focus {
+  background-color: #ffffff;
+}
+
+
+.user-navigation,
+.site-navigation {
+  list-style: none;
+}
+
+.user-navigation a,
+.site-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #293449;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+  background-color: #1d2739;
+}

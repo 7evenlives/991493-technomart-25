@@ -11,6 +11,10 @@ body {
 
 }
 
+.visually-hidden {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -37,17 +41,37 @@ a {
   background-color: #63a63e;
 }
 
-
-<!-- не отображается свойство при наведении.. -->
+/*  не отображается свойство при наведении.. */
 .order:hover {
   background-color: #5fbb2d;
 }
 
+.order:active {
+  background-color: #518534;
+  color: #a8c29a;
+}
+
+
 .bookmark:hover,
-.bookmark:focus,
 .basket:hover,
-.basket:focus,
-.found:hover, {
+.found:hover {
+  background-color: #212a3a;
+  color: #8b8e94;
+}
+
+.bookmark:active,
+.basket:active {
+  background-color: #161d29;
+}
+
+
+.found {
+  background-color: #293449;
+  color: #000000;
+  border: none;
+}
+
+.found:hover {
   background-color: #212a3a;
 }
 
@@ -57,34 +81,430 @@ a {
 }
 
 .bookmark:active,
-.basket:active, {
+.basket:active {
   background-color: #161d29;
 }
 
-<!-- Сделать белый фон при Курсоре в поле поиска (создать поле ввода?) -->
-.found:focus {
-  background-color: #ffffff;
-}
 
-
-.user-navigation,
-.site-navigation {
-  list-style: none;
-}
-
-.user-navigation a,
-.site-navigation a {
+.site-navigation a{
+  font-size: 17px;
+  line-height: 17px;
+  font-style: regular;
   color: #ffffff;
+  background-color: #32425c;
 }
 
 .site-navigation a:hover,
-.site-navigation a:focus,
+.site-navigation a:focus {
+  background-color: #293449;
+}
+
+.site-navigation a:active {
+  color: #a8abaf;
+  background-color: #1d2739;
+}
+
+
+
+
+
+.user-navigation,
+.site-navigation  {
+  list-style: none;
+}
+
+.user-navigation a {
+  color: #ffffff;
+}
+
 .user-navigation a:hover,
 .user-navigation a:focus {
-  background-color: #293449;
+  background-color: #212a3a;
 }
 
 .site-navigation a:active,
 .user-navigation a:active {
-  background-color: #1d2739;
+  background-color: #161d29;
+}
+
+.main-services h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  font-style: regular;
+  text-transform: uppercase;
+  font-family: "cuprum";
+}
+
+.services h3 {
+  color: #32425c;
+  font-size: 36px;
+  line-height: 36px;
+  font-style: regular;
+  text-transform: uppercase;
+  font-family: "cuprum";
+}
+
+.services p {
+  color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "pt sans";
+}
+
+
+.main-contacts h1 {
+  color: #ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  font-family: "cuprum";
+}
+
+.main-phone {
+  color: #e9292a;
+  text-align: center;
+  font-size: 21px;
+  line-height: 21px;
+  font-style: regular;.
+  font-family: "cuprum";
+}
+
+.main-adress {
+  color: #32425c;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.login {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.registration {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.login:hover,
+.registration:hover {
+  color: #ee3643;
+}
+
+.login:active,
+.registration:active {
+  color: #c5c5c5;
+}
+
+.main-about h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.main-about p {
+  color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "pt sans";
+}
+
+.delivery-service-list {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "cuprum";
+
+  list-style:none;
+  margin-left: 0px;
+}
+
+.button-about a {
+  margin: 220px;
+  padding: 38px;
+  display: inline-block;
+  background-color: #ee3643;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "cuprum";
+  }
+
+.main-contacts h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.main-contacts p {
+  color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "pt sans";
+}
+
+.button-contacts a {
+  margin: 300px;
+  padding: 38px;
+  display: inline-block;
+  background-color: #ee3643;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+
+/*-- Оформление подвала */
+
+.main-footer {
+  background-color: #32425c;
+}
+
+.footer-navigation-one ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.footer-navigation-one a {
+  text-decoration: none;
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "cuprum";
+  display: block;
+  margin: 60px;
+}
+
+.footer-navigation-one a:hover {
+  text-decoration: underline;
+}
+
+.footer-navigation-one a:active {
+  text-decoration: none;
+  color: #929caa;
+}
+
+.footer-navigation-two ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.footer-navigation-two a {
+  text-decoration: none;
+  color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "cuprum";
+  display: block;
+  margin: 60px;
+}
+
+.footer-navigation-two a:hover {
+  text-decoration: underline;
+}
+
+.footer-navigation-two a:active {
+  text-decoration: none;
+  color: #998a6e;
+}
+
+.footer-navigation-two p {
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+
+.footer-social-navigation {
+  background-color: #293449;
+}
+
+
+.footer-social-navigation p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.footer-social-navigation a {
+  color: #ffd180;
+}
+
+.footer-social-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-navigation a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Оформление страницы каталога */
+
+.breadcrumps a {
+  color: #000000;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: regular;
+  font-family: "pt sans";
+  text-transform: uppercase;
+}
+
+.breadcrumps li {
+  list-style: none;
+}
+
+h1 {
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-style: bold;
+  font-family: "pt sans";
+}
+
+.filter ul {
+  list-style: none;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-style: regular;
+  font-family: "pt sans";
+}
+
+.filter-input {
+  color: #000000;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #000000;
+}
+
+.filter-input:disabled + label {
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-enter {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  font-style: regular;
+  font-family: "cuprum";
+}
+
+.profile-enter:hover {
+
+}
+
+.profile-enter:active {
+  color: #c5c5c5;
+}
+
+.my-order,
+.account {
+  color: #32425c;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: regular;
+  font-family: "cuprum";
+  text-decoration: underline;
+}
+
+.my-order:hover,
+.account:hover {
+  color: #ee3643;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: regular;
+  font-family: "cuprum";
+  text-decoration: underline;
+}
+
+.my-order:active,
+.account:active {
+  color: #32425c;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: regular;
+  font-family: "cuprum";
+  text-decoration: underline;
 }

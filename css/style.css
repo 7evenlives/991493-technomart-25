@@ -38,23 +38,30 @@ a {
 }
 
 .order {
+  color: #ffffff;
   background-color: #63a63e;
 }
 
-/*  не отображается свойство при наведении.. */
-.order:hover {
+.order:hover,
+.order:focus {
   background-color: #5fbb2d;
 }
 
 .order:active {
-  background-color: #518534;
   color: #a8c29a;
+  background-color: #518534;
 }
 
+.bookmark,
+.basket,
+.found {
+  color: #ffffff;
+}
 
 .bookmark:hover,
+.bookmark:focus,
 .basket:hover,
-.found:hover {
+.basket:focus {
   background-color: #212a3a;
   color: #8b8e94;
 }
@@ -63,7 +70,6 @@ a {
 .basket:active {
   background-color: #161d29;
 }
-
 
 .found {
   background-color: #293449;
@@ -80,13 +86,7 @@ a {
   color: #000000;
 }
 
-.bookmark:active,
-.basket:active {
-  background-color: #161d29;
-}
-
-
-.site-navigation a{
+.site-navigation a {
   font-size: 17px;
   line-height: 17px;
   font-style: regular;
@@ -104,26 +104,12 @@ a {
   background-color: #1d2739;
 }
 
-
-
-
-
 .user-navigation,
 .site-navigation  {
   list-style: none;
 }
 
-.user-navigation a {
-  color: #ffffff;
-}
-
-.user-navigation a:hover,
-.user-navigation a:focus {
-  background-color: #212a3a;
-}
-
-.site-navigation a:active,
-.user-navigation a:active {
+.site-navigation a:active {
   background-color: #161d29;
 }
 
@@ -133,7 +119,7 @@ a {
   line-height: 30px;
   font-style: regular;
   text-transform: uppercase;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .services h3 {
@@ -142,7 +128,7 @@ a {
   line-height: 36px;
   font-style: regular;
   text-transform: uppercase;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .services p {
@@ -150,16 +136,15 @@ a {
   font-size: 13px;
   line-height: 24px;
   font-style: regular;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
-
 
 .main-contacts h1 {
   color: #ee3643;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .main-phone {
@@ -168,7 +153,7 @@ a {
   font-size: 21px;
   line-height: 21px;
   font-style: regular;.
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .main-adress {
@@ -177,7 +162,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .login {
@@ -185,7 +170,7 @@ a {
   font-size: 21px;
   line-height: 21px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .registration {
@@ -193,7 +178,7 @@ a {
   font-size: 21px;
   line-height: 21px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .login:hover,
@@ -212,7 +197,7 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .main-about p {
@@ -220,7 +205,7 @@ a {
   font-size: 13px;
   line-height: 24px;
   font-style: regular;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .delivery-service-list {
@@ -228,7 +213,7 @@ a {
   font-size: 18px;
   line-height: 24px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 
   list-style:none;
   margin-left: 0px;
@@ -244,24 +229,24 @@ a {
   line-height: 18px;
   text-transform: uppercase;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   }
 
-.main-contacts h2 {
+.down-contacts h2 {
   color: #000000;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
-.main-contacts p {
+.down-contacts p {
   color: #000000;
   font-size: 13px;
   line-height: 24px;
   font-style: regular;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .button-contacts a {
@@ -274,7 +259,7 @@ a {
   line-height: 18px;
   text-transform: uppercase;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 
@@ -297,7 +282,7 @@ a {
   font-size: 18px;
   line-height: 24px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   display: block;
   margin: 60px;
 }
@@ -324,7 +309,7 @@ a {
   font-size: 18px;
   line-height: 24px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   display: block;
   margin: 60px;
 }
@@ -343,21 +328,19 @@ a {
   font-size: 18px;
   line-height: 24px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
-
 
 .footer-social-navigation {
   background-color: #293449;
 }
-
 
 .footer-social-navigation p {
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .footer-social-navigation a {
@@ -376,39 +359,28 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Оформление страницы каталога */
+
+.page-title {
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  font-style: regular;
+  font-family: "Cuprum", Arial, sans-serif;
+  text-transform: uppercase;
+}
 
 .breadcrumps a {
   color: #000000;
   font-size: 13px;
   line-height: 18px;
   font-style: regular;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
   text-transform: uppercase;
 }
 
 .breadcrumps li {
   list-style: none;
-}
-
-h1 {
-  color: #32425c;
-  font-size: 30px;
-  line-height: 30px;
-  text-transform: uppercase;
-  font-style: regular;
-  font-family: "cuprum";
 }
 
 .filter fieldset {
@@ -420,7 +392,7 @@ h1 {
   line-height: 30px;
   text-transform: uppercase;
   font-style: bold;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .filter ul {
@@ -429,7 +401,7 @@ h1 {
   line-height: 20px;
   text-transform: uppercase;
   font-style: regular;
-  font-family: "pt sans";
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .filter-input {
@@ -448,27 +420,12 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .profile-enter {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .profile-enter:hover {
@@ -485,26 +442,142 @@ h1 {
   font-size: 16px;
   line-height: 18px;
   font-style: regular;
-  font-family: "cuprum";
+  font-family: "Cuprum", Arial, sans-serif;
   text-decoration: underline;
 }
 
 .my-order:hover,
-.account:hover {
+.my-order:focus,
+.account:hover,
+.account:focus {
   color: #ee3643;
-  font-size: 16px;
-  line-height: 18px;
-  font-style: regular;
-  font-family: "cuprum";
-  text-decoration: underline;
 }
 
 .my-order:active,
 .account:active {
+  color: #c5c5c5;
+}
+
+
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.buy {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  font-style: regular;
+  font-family: "Cuprum", Arial, sans-serif;
+  background-color: #63a63e;
+
+  border-bottom: 3px solid #367315;
+  border-radius: 4px;
+}
+
+.buy:hover,
+.buy:focus {
+  background-color: #5fbb2d;
+}
+
+.buy:active {
+  background-color: #518534;
+}
+
+
+.bookmarks {
   color: #32425c;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  font-style: regular;
+  font-family: "Cuprum", Arial, sans-serif;
+
+  border: 3px solid #63a63e;
+  border-radius: 4px;
+}
+
+.bookmarks:hover,
+.bookmarks:focus {
+  border: 3px solid #32425c;
+  border-radius: 4px;
+}
+
+.bookmarks:active {
+  color: #c1c6ce;
+  border: 3px solid #c1c6ce;
+  border-radius: 4px;
+}
+
+
+.catalog-item h3 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-style: bold;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.price {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  font-style: bold;
+  font-family: "PT Sans", Arial, sans-serif;
+  background-color: #ee3643;
+}
+
+.last-price {
+  font-size: 17px;
+  line-height: 18px;
+  color: #999999;
+  text-align: center;
+  font-style: bold;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+
+/* Нумерация страниц снизу */
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #000000;
+  font-size: 13px;
   line-height: 18px;
   font-style: regular;
-  font-family: "cuprum";
-  text-decoration: underline;
+  font-family: "PT Sans", Arial, sans-serif;
+  width: 50px;	height: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
 }
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+    border: 1px solid #bdc6ca;
+}
+
+.pagination-item a:active {
+    border: 1px solid #ee3643;
+}
+
+.pagination-item-current a {
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+/* -------------------------------- */

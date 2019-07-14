@@ -20,12 +20,23 @@ a {
 }
 
 .main-header-logo {
+  display: inline-block;
   color: #ffffff;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 19px;
+  line-height: 19px;
   text-transform: uppercase;
   background-color: #ee3643;
-  border-bottom: 3px solid #b52933;
+  border-bottom: 5px solid #b52933;
+  font-family: "Cuprum", Arial, sans-serif;
+  text-align: center;
+
+  margin-left: 130px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 55px;
+  padding-right: 56px;
+
+  border-bottom: 5px solid #b52933;
 }
 
 
@@ -704,6 +715,7 @@ a {
 
 .main-footer-logo {
   display: inline-block;
+  padding: 0px;
   color: #ffffff;
   font-size: 24px;
   line-height: 24px;
@@ -712,12 +724,11 @@ a {
   border-bottom: 5px solid #b52933;
   font-family: "Cuprum", Arial, sans-serif;
   text-align: center;
-  vertical-align: middle;
 
-  border: 0px;
-  height: 63px;
-  width: 220px;
-  border-radius: 4px;
+  margin-left: 130px;
+  padding: 21px 42px;
+
+  border-bottom: 5px solid #b52933;
 }
 
 
